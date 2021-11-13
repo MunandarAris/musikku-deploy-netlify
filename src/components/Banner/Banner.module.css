@@ -1,0 +1,60 @@
+.logo {
+    color: #FF5500;
+}
+
+.btnLogin {
+    background-color: transparent !important;
+    border: 2px solid #FFF !important;
+}
+.btnLogin:hover {
+    background-color: transparent !important;
+    border: 2px solid #FFF !important;
+}
+.btnLogin:focus {
+    background-color: transparent !important;
+    border: 2px solid #FFF !important;
+    box-shadow: none !important;
+}
+
+.btnRegister {
+    background-color: #FF5500 !important;
+    border: 2px solid #FF5500 !important;
+}
+.btnRegister:hover {
+    background-color: #e64f04 !important;
+    border: 2px solid #e64f04 !important;
+}
+.btnRegister:focus {
+    background-color: #FF5500 !important;
+    border: 2px solid #FF5500 !important;
+    box-shadow: none !important;
+}
+
+.imgBanner {
+    width: 80%;
+}
+
+@media (max-width : 767px) {
+
+    .container {
+        text-align: center;
+        padding-top: 0 !important;
+    }
+    .btnRegister {
+        margin-top: 5% !important;
+        margin-left: 0 !important;
+        width: 50% !important;
+    }
+    .btnLogin {
+        margin-top: 5% !important;
+        margin-left: 0 !important;
+        width: 50% !important;
+    }
+    .btnRegister {
+        width: 50% !important;
+    }
+    .imgBanner {
+        margin-top: 10% !important;
+    }
+
+}

@@ -1,0 +1,33 @@
+.container {
+    background-color: #212529;
+    margin-bottom: 0 !important;
+}
+.icon {
+    color: #FF5500 !important;
+}
+.imageBanner {
+    width: 70%;
+}
+.btnRegister {
+    background-color: #FF5500 !important;
+    border: none !important;
+}
+.btnRegister:hover {
+    background-color: #ce4704 !important;
+}
+.btnRegister:focus {
+    box-shadow: none !important;
+}
+.container1 {
+    background-color: #0C0C0C ;
+}
+
+/* Mobile Interface */
+@media (max-width : 767px) {
+
+    .imageBanner {
+        width: 100% !important;
+        margin-bottom: 15% !important;
+    }
+
+}

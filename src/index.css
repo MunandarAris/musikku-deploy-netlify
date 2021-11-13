@@ -1,13 +1,159 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Edit Music Module */
+.controller-title {
+    color : #FF5500 !important
+}
+.music-player-controller:hover {
+    background: #FF5500 !important;
+}
+.rc-slider-step {
+    background-color: #FF5500 !important;
+}
+.rc-slider-handle {
+    background-color: #FF5500 !important;
+}
+.progress-bar {
+    background: transparent !important;
+}
+.rc-slider-track {
+    background-color: #ff945f !important;
+}
+
+.prev-audio:hover {
+    color: #FF5500 !important;
+}
+.prev-audio path:hover {
+    color: #FF5500 !important;
+}
+.prev-audio svg:hover {
+    color: #FF5500 !important;
+}
+
+.play-btn:hover {
+    color: #FF5500 !important;
+}
+.play-btn path:hover {
+    color: #FF5500 !important;
+}
+.play-btn svg:hover {
+    color: #FF5500 !important;
+}
+
+.next-audio:hover {
+    color: #FF5500 !important;
+}
+.next-audio path:hover {
+    color: #FF5500 !important;
+}
+.next-audio svg:hover {
+    color: #FF5500 !important;
+}
+
+.reload-btn:hover {
+    color: #FF5500 !important;
+}
+.reload-btn path:hover {
+    color: #FF5500 !important;
+}
+.reload-btn svg:hover {
+    color: #FF5500 !important;
+}
+
+.play-sounds:hover {
+    color: #FF5500 !important;
+}
+.play-sounds path:hover {
+    color: #FF5500 !important;
+}
+.play-sounds svg:hover {
+    color: #FF5500 !important;
+}
+
+.loop-btn:hover {
+    color: #FF5500 !important;
+}
+.loop-btn path:hover {
+    color: #FF5500 !important;
+}
+.loop-btn svg:hover {
+    color: #FF5500 !important;
+}
+
+.audio-lists-btn:hover {
+    color: #FF5500 !important;
+}
+.audio-lists-btn path:hover {
+    color: #FF5500 !important;
+}
+.audio-lists-btn svg:hover {
+    color: #FF5500 !important;
+}
+
+.hide-panel:hover {
+    color: #FF5500 !important;
+}
+.hide-panel path:hover {
+    color: #FF5500 !important;
+}
+.hide-panel svg:hover {
+    color: #FF5500 !important;
+}
+
+.player-icons {
+    color: #FF5500 !important;
+}
+.player-icons path {
+    color: #FF5500 !important;
+}
+.player-icons svg {
+    color: #FF5500 !important;
+}
+
+.player-name {
+    color: #FF5500 !important;
+}
+.player-name path {
+    color: #FF5500 !important;
+}
+.player-name svg {
+    color: #FF5500 !important;
+}
+
+.player-singer {
+    color: #FF5500 !important;
+}
+.player-singer path {
+    color: #FF5500 !important;
+}
+.player-singer svg {
+    color: #FF5500 !important;
+}
+
+.audio-lists-panel-header-actions:hover {
+    color: #FF5500 !important;
+}
+.audio-lists-panel-header-actions path:hover {
+    color: #FF5500 !important;
+}
+.audio-lists-panel-header-actions svg:hover {
+    color: #FF5500 !important;
+}
+
+
+/* Mobile Interface */
+@media (max-width : 767px) {
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .navbar-toggler .navbar-toggler-icon {
+        background-color: white !important;
+        border-radius: 5px;
+    }
 }
